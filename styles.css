@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: beige;
+    min-height: 100vh;
+    
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+img:hover {
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+}
